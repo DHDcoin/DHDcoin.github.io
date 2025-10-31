@@ -1,0 +1,19 @@
+<svg width="220" height="72" viewBox="0 0 220 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>CoinGecko horizontal lockup</title>
+  <g transform="translate(16 8)">
+    <defs>
+      <linearGradient id="cg-gradient" x1="14" y1="4" x2="66" y2="66" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#F3E07F"/>
+        <stop offset="1" stop-color="#9CCC65"/>
+      </linearGradient>
+    </defs>
+    <circle cx="44" cy="28" r="28" fill="url(#cg-gradient)"/>
+    <circle cx="51" cy="24" r="18" fill="#F9EABA"/>
+    <path d="M28 38c6.4-1.2 12.4-5.3 15.6-9.8 3.1-4.4 3.8-9.4 2.4-13.9-9 1.5-16.6 8.5-18.6 18.7C26.6 35.1 27 36.8 28 38Z" fill="#88BD3A"/>
+    <circle cx="60.2" cy="18.8" r="6.2" fill="#0F3B21"/>
+    <circle cx="61.5" cy="17.4" r="2.8" fill="#ffffff"/>
+    <path d="M32 44.5c2.3 2.8 6.8 5.5 11.9 5.5 10.8 0 19.6-8.8 19.6-19.6 0-1.8-.25-3.6-.72-5.2-1.5 5.5-5 10.7-11 14.8-6 4.1-12.6 5.9-19.78 4.5Z" fill="#6BAF3D"/>
+    <circle cx="44" cy="28" r="28" stroke="#D9E7A8" stroke-width="1.5"/>
+  </g>
+  <text x="96" y="42" fill="#4C4C4C" font-family="'Poppins', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600">CoinGecko</text>
+</svg>

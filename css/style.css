@@ -2014,6 +2014,84 @@ and (orientation: portrait) {
     cursor: pointer;
 }
 
+.cta-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 18px 0 0;
+}
+
+.cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-link:hover,
+.cta-link:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.cta-link:focus {
+    outline: none;
+}
+
+.cta-link--coingecko {
+    padding: 0;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: 1px solid #dfe5eb;
+    box-shadow: 0 6px 18px rgba(11, 31, 23, 0.1);
+}
+
+.cta-link--coingecko:hover,
+.cta-link--coingecko:focus {
+    box-shadow: 0 10px 22px rgba(11, 31, 23, 0.22);
+}
+
+.cta-link--coingecko img {
+    display: block;
+    height: 52px;
+}
+
+.cta-link--terminal {
+    background: linear-gradient(135deg, #09392c 0%, #125f48 50%, #1cc27d 100%);
+    color: #eafff6;
+}
+
+.cta-link--dexscreener {
+    background: linear-gradient(135deg, #2a124f 0%, #5f2ab0 50%, #9f5bff 100%);
+    color: #f4f0ff;
+}
+
+.cta-link--dyor {
+    background: linear-gradient(135deg, #1f2335 0%, #2f3f7f 45%, #3f66d0 100%);
+    color: #f0f4ff;
+}
+
+.cta-link--forbes {
+    background: #0c0c0c;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+
+.cta-link__icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 .coingecko-badge {
     display: inline-flex;
     align-items: center;
