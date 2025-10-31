@@ -2092,5 +2092,33 @@ and (orientation: portrait) {
     display: flex;
     align-items: center;
     justify-content: center;
+.coingecko-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    background-color: #00e59b;
+    color: #0b1f17;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.coingecko-badge:hover,
+.coingecko-badge:focus {
+    color: #0b1f17;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 229, 155, 0.35);
+}
+
+.coingecko-badge:focus {
+    outline: none;
+}
+
+.coingecko-label {
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
 }
