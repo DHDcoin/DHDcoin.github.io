@@ -54,6 +54,7 @@ body {font-family: 'Roboto', sans-serif; font-size: 18px;color: #ffffff;font-wei
 .h4, h4 { font-size: 24px;}
 a, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
 section,.section-padding {position: relative;overflow: hidden;}
+img {max-width: 100%; height: auto;}
 a {color:inherit;text-decoration: none;}
 .rev_slider_wrapper{width: 100% !important;}
 .btn.focus, .btn:focus{-webkit-box-shadow: none;box-shadow: none;}
@@ -1849,6 +1850,36 @@ header a.logo img {
         margin: 0 auto -95px auto;
     }
 
+    .slider-area {
+        text-align: center;
+    }
+
+    .slider-area .circle-two,
+    .slider-area .circle-three,
+    .slider-area .circle-five {
+        position: static;
+        display: inline-flex;
+        margin: 18px 8px 0;
+    }
+
+    .slider-area .circle-two a,
+    .slider-area .circle-three a,
+    .slider-area .circle-five a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: rgba(0, 120, 193, 0.12);
+    }
+
+    .slider-area .circle-two a i,
+    .slider-area .circle-three a i,
+    .slider-area .circle-five a i {
+        font-size: 24px !important;
+    }
+
     /* Skills */
     .skill-box p {
         font-size: 13px;
@@ -1977,6 +2008,24 @@ header a.logo img {
         font-size: 30px;
     }
 
+    .slider-area .circle-two,
+    .slider-area .circle-three,
+    .slider-area .circle-five {
+        margin: 14px 6px 0;
+    }
+
+    .slider-area .circle-two a,
+    .slider-area .circle-three a,
+    .slider-area .circle-five a {
+        width: 44px;
+        height: 44px;
+    }
+
+    .circle-one,
+    .circle-four {
+        display: none;
+    }
+
     /* Side Nav */
     .side-nav .navbar-nav .nav-item {
         margin: 12px 0;
@@ -2019,6 +2068,8 @@ and (orientation: portrait) {
     flex-wrap: wrap;
     gap: 12px;
     margin: 18px 0 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-link {
