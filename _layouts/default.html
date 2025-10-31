@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<!-- START LOADER -->
+<div class="loader-bg">
+  <div id="container">
+      <svg viewBox="0 0 100 100">
+          <defs>
+              <filter id="shadow">
+                  <feDropShadow dx="0" dy="0" stdDeviation="0.5" flood-color="#dabd1d"></feDropShadow>
+              </filter>
+          </defs>
+          <circle id="spinner" style="fill:transparent;stroke:#0078c1;stroke-width: 8px;stroke-linecap: round;filter:url(#shadow);" cx="50" cy="50" r="45"></circle>
+      </svg>
+  </div>
+</div>
+<!-- END LOADER -->
+
+{% include header.html %}
+
+{{ content }}
+
+{% include footer.html %}
+
+</body>
+</html>
+
+
