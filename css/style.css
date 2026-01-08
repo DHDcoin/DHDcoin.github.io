@@ -2145,126 +2145,62 @@ and (orientation: portrait) {
 ====================================== */
 
 .dickpaper-page {
-    background: radial-gradient(circle at top, #102a56 0%, #0a0f1a 45%, #06080f 100%);
-    color: #f5f3ef;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 120px;
 }
 
 .dickpaper-page a {
     color: #ffe55a;
 }
 
+.dickpaper-page .slider-area,
+.dickpaper-page .skills,
+.dickpaper-page .timeline-bg,
+.dickpaper-page .contact-bg {
+    height: auto;
+    min-height: 100vh;
+}
+
+.dickpaper-page .section {
+    padding: 110px 0;
+}
+
 .dickpaper-hero {
-    padding: 80px 0 60px;
+    padding: 120px 0 80px;
 }
 
-.dickpaper-hero-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
-    align-items: center;
-}
-
-.dickpaper-hero-text h1 {
-    font-size: clamp(2.6rem, 5vw, 4.6rem);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 20px;
+.dickpaper-panel {
+    background: rgba(6, 11, 23, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
 }
 
 .dickpaper-kicker {
-    font-size: 1rem;
     letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: #ffe55a;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .dickpaper-lede {
-    font-size: 1.2rem;
     font-weight: 600;
 }
 
 .dickpaper-note {
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 18px;
     letter-spacing: 0.08em;
     color: #7bd7ff;
 }
 
-.dickpaper-logo-frame {
-    width: min(420px, 70vw);
-    aspect-ratio: 1;
-    margin: 0 auto;
-    background: url('../logoCMC.png') no-repeat center/contain;
-    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.4));
-    opacity: 0.88;
-}
-
-.dickpaper-section {
-    padding: 70px 0;
-    position: relative;
-}
-
-.dickpaper-section.alt {
-    background: rgba(255, 255, 255, 0.03);
-    transform: skewY(-1deg);
-}
-
-.dickpaper-section.alt > .container {
-    transform: skewY(1deg);
-}
-
-.dickpaper-section-head {
-    margin-bottom: 30px;
-}
-
-.dickpaper-section-head h2 {
-    font-size: clamp(2rem, 4vw, 3.2rem);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-}
-
-.dickpaper-subtitle {
-    color: #9ae1ff;
-    margin-top: 10px;
-}
-
-.dickpaper-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 24px;
-}
-
-.dickpaper-card {
-    background: rgba(10, 18, 32, 0.82);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 20px;
-    padding: 24px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
-    position: relative;
-}
-
-.dickpaper-card.offset {
-    transform: rotate(-1.2deg) translateY(10px);
-}
-
-.dickpaper-card h3 {
-    color: #ffe55a;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    letter-spacing: 0.08em;
-    margin-bottom: 12px;
-}
-
-.dickpaper-card ul {
+.dickpaper-panel ul {
     padding-left: 18px;
     margin-bottom: 0;
 }
 
-.dickpaper-card li {
+.dickpaper-panel li {
     margin-bottom: 6px;
 }
 
@@ -2296,10 +2232,6 @@ and (orientation: portrait) {
     transform: translateY(0);
 }
 
-.dickpaper-outro .dickpaper-card {
-    background: rgba(7, 12, 24, 0.9);
-}
-
 .dickpaper-cta {
     display: inline-block;
     margin-top: 18px;
@@ -2318,24 +2250,18 @@ and (orientation: portrait) {
     transform: translateY(-2px);
 }
 
+@media (max-width: 991px) {
+    .dickpaper-page .section {
+        padding: 90px 0;
+    }
+
+    .dickpaper-page .content-para {
+        padding-right: 0;
+    }
+}
+
 @media (max-width: 768px) {
-    .dickpaper-page {
-        padding-top: 90px;
-    }
-
     .dickpaper-hero {
-        padding-top: 40px;
-    }
-
-    .dickpaper-card.offset {
-        transform: none;
-    }
-
-    .dickpaper-section.alt {
-        transform: none;
-    }
-
-    .dickpaper-section.alt > .container {
-        transform: none;
+        padding-top: 90px;
     }
 }
