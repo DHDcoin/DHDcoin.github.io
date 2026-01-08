@@ -1,8 +1,17 @@
 <!-- START HEADER -->
+{% if page.url == "/" %}
+    {% assign home_href = "#home" %}
+    {% assign tokenomics_href = "#tokenomics" %}
+    {% assign utility_href = "#utility" %}
+{% else %}
+    {% assign home_href = "/" %}
+    {% assign tokenomics_href = "/#tokenomics" %}
+    {% assign utility_href = "/#utility" %}
+{% endif %}
 <header>
   <!--Navigation-->
   <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
-      <a href="#home" title="Logo" class="logo">
+      <a href="{{ home_href }}" title="Logo" class="logo">
           <!--Logo Default-->
           <div class="mega-logo">
              <h1>DHD</h1>
@@ -21,6 +30,10 @@
               </li>
           </ul>
       </div>
+      <div class="lang-switch header-lang-switch" role="group" aria-label="Language switcher">
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+          <button class="lang-btn" type="button" data-lang="ru">RU</button>
+      </div>
   </nav>
 
   <!--Side Nav-->
@@ -30,21 +43,29 @@
       </span>
       <div class="inner-wrapper">
           <nav class="side-nav w-100">
-              <a href="#home" title="Logo" class="logo navbar-brand">
+              <a href="{{ home_href }}" title="Logo" class="logo navbar-brand">
                   <h1>DHD Coin</h1>
               </a>
               <ul class="navbar-nav text-capitalize">
                   <li class="nav-item">
-                      <a class="nav-link" href="#home">Home</a>
+                      <a class="nav-link" href="{{ home_href }}" data-i18n="nav_home">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                      <a class="nav-link" href="{{ tokenomics_href }}" data-i18n="nav_tokenomics">Tokenomics</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#utility">Utility</a>
+                      <a class="nav-link" href="{{ utility_href }}" data-i18n="nav_utility">Utility</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/dickpaper/" data-i18n="nav_dickpaper">Dickpaper</a>
                   </li>
               </ul>
           </nav>
+
+          <div class="lang-switch" role="group" aria-label="Language switcher">
+              <button class="lang-btn" type="button" data-lang="en">EN</button>
+              <button class="lang-btn" type="button" data-lang="ru">RU</button>
+          </div>
 
           <div class="side-footer w-100">
               <ul class="social-icons-simple">
