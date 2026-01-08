@@ -2145,6 +2145,15 @@ and (orientation: portrait) {
     Dickpaper Page
 ====================================== */
 
+body.dickpaper-body {
+    background-color: var(--dhd-bg);
+    background-image: linear-gradient(140deg, var(--dhd-bg-overlay-strong) 0%, var(--dhd-bg-overlay-mid) 45%, var(--dhd-bg-overlay-soft) 100%), var(--dhd-bg-texture);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--dhd-text-primary);
+}
+
 .dickpaper-page {
     color: var(--dhd-text-primary);
     font-family: var(--dhd-font-sans);
@@ -2326,23 +2335,9 @@ and (orientation: portrait) {
 }
 
 .dickpaper-cta {
-    display: inline-block;
     margin-top: 18px;
-    padding: 12px 28px;
-    border-radius: 999px;
-    background: var(--dhd-accent);
-    color: var(--dhd-text-primary);
-    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    box-shadow: 0 12px 30px rgba(0, 120, 193, 0.35);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.dickpaper-cta:hover {
-    color: var(--dhd-text-primary);
-    transform: translateY(-2px);
-    box-shadow: 0 16px 32px rgba(0, 120, 193, 0.45);
 }
 
 @media (max-width: 991px) {
