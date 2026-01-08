@@ -138,18 +138,18 @@ const dhdTranslations = {
         tooltip_telegram: "Телеграм",
         tooltip_utility: "Утилити",
         tooltip_dexview: "Дексвью",
-        hero_title: "Йо, девчонки, я DHD coin,",
-        hero_subtitle: "добро пожаловать.",
+        hero_title: "Йо, девчонки, я DHD Coin,",
+        hero_subtitle: "добро пожаловать на борт.",
         tokenomics_title: "ТОКЕНОМИКА",
         tokenomics_subtitle: "DHD Coin ($DHD)",
-        tokenomics_intro: "Йо, девчонки, я DHD coin",
+        tokenomics_intro: "Йо, девчонки, я DHD Coin",
         tokenomics_supply_title: "ЭМИССИЯ",
-        tokenomics_supply_text: "Общее разблокированное предложение — 10M (10,000,000 $DHD)",
+        tokenomics_supply_text: "Общий разблокированный объём — 10M (10,000,000 $DHD)",
         tokenomics_community_title: "КОМЬЮНИТИ",
         tokenomics_community_text:
             "Комьюнити токена сформировалось в Telegram-канале и насчитывает более 15 000 пользователей",
         tokenomics_presale_title: "Пресейл",
-        tokenomics_presale_text: "2.000,000 $DHD были проданы на Pre-ICO.",
+        tokenomics_presale_text: "2,000,000 $DHD проданы на Pre-ICO.",
         tokenomics_presale_price_title: "Цена пресейла",
         tokenomics_presale_price_text: "1 TON → 1000 $DHD<br>Мин. покупка 1 TON<br>Макс. покупка 100 TON",
         tokenomics_progress_ico: "ICO",
@@ -160,7 +160,7 @@ const dhdTranslations = {
         tokenomics_progress_grant: "Гранты",
         utility_title: "Утилити",
         utility_contract_warning:
-            "Не ведитесь на скам <a style=\"color: #0078c1;\" href=\"https://tonviewer.com/EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B\"><span id=\"copyme\">EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B</span></a> <span class=\"copyme\" onclick=\"copyContent()\"><i class=\"fas fa-copy\"></i></span>",
+            "Не попадитесь на скам <a style=\"color: #0078c1;\" href=\"https://tonviewer.com/EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B\"><span id=\"copyme\">EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B</span></a> <span class=\"copyme\" onclick=\"copyContent()\"><i class=\"fas fa-copy\"></i></span>",
         utility_name: "Название: DHD Coin",
         utility_allows: "На данный момент токен $DHD позволяет:",
         utility_list_game:
@@ -173,32 +173,32 @@ const dhdTranslations = {
         utility_list_club:
             "- Получать доступ в приватное комьюнити <a style=\"color: #0078c1;\" href=\"https://t.me/xrocket?start=sb_0fTbrHY1Au0rNc5\" target=\"_blank\">DHD Sharks Club</a>",
         utility_list_attitude:
-            " - Выражать своё отношение к оппоненту, с которым вы не полностью согласны",
+            "- Выражать своё отношение к оппоненту, с которым вы не полностью согласны",
         utility_list_wallet:
-            "- Достойное украшение и обязательный атрибут кошельков с крупным балансом TON",
+            "- Как достойное украшение и обязательный атрибут кошельков с крупным балансом TON",
         utility_list_amulet: "- Символ и амулет, приносящий удачу и процветание в каждый дом",
         utility_buy: "Купить на DeDust.io",
         footer_verified_contract:
             "Проверенный контракт: EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B",
         dickpaper_kicker: "The Way of DHD",
-        dickpaper_title: "он же Dickpaper",
+        dickpaper_title: "aka Dickpaper",
         dickpaper_intro_lede:
-            "DHD Coin — мем-токен, живущий в блокчейне TON. Его не создавали, чтобы менять мир, чинить финансы или обещать кому-то яхту. Его создавали ради фана, общения и лёгкого безумия.",
+            "DHD Coin — мем-токен на блокчейне TON. Его не создавали, чтобы менять мир, чинить финансы или обещать кому-то яхту. Он появился ради фана, общения и лёгкого безумия.",
         dickpaper_intro_body:
             "DHD вырос из NFT-коллекции The Way of DHD — проекта, который начался как шутка, случайно стал культурой и отказался умирать. Где-то по пути он превратился в экосистему с мемами, играми, NFT, ботами и очень принципиальным комьюнити.",
-        dickpaper_intro_note: "Это не whitepaper. Это dickpaper.",
+        dickpaper_intro_note: "Это не Whitepaper. Это Dickpaper.",
         dickpaper_what_title: "Что вообще такое DHD?",
         dickpaper_what_subtitle: "Сначала культура, потом утилити, и всегда хаос.",
-        dickpaper_what_card1_title: "Не утилити-фёрст",
+        dickpaper_what_card1_title: "Не utility-first",
         dickpaper_what_card1_body:
-            "DHD не «utility-first». Он culture-first. Общий язык для людей, которым нравится:",
+            "DHD Coin не «utility-first». Он culture-first. Общий язык для людей, которым нравится:",
         dickpaper_what_card1_list1: "мемы вместо манифестов",
         dickpaper_what_card1_list2: "цифровое искусство вместо дорожных карт",
         dickpaper_what_card1_list3: "комьюнити вместо обещаний",
         dickpaper_what_card2_title: "Рождён в Telegram",
         dickpaper_what_card2_body:
             "Он живёт в основном внутри Telegram, где каналы, закрытые чаты, NFT-дропы и игровые боты сталкиваются в хаотичной, но живой экосистеме.",
-        dickpaper_what_card2_hover_text: "Наведи, чтобы почувствовать вайб.",
+        dickpaper_what_card2_hover_text: "Наведи, чтобы поймать вайб.",
         dickpaper_what_card2_hover_attr: "Никаких корпоративных презентаций. Никакой искусственной серьёзности.",
         dickpaper_what_card3_title: "Серьёзность по ошибке",
         dickpaper_what_card3_body: "Просто мем, который научился ходить. Странный, рабочий и очень несерьёзный.",
@@ -238,7 +238,7 @@ const dhdTranslations = {
         dickpaper_past_title: "Прошлое → Настоящее",
         dickpaper_past_card1_line1: "Началось как шуточная NFT-коллекция. Потом люди остались.",
         dickpaper_past_card1_line2:
-            "Со временем экосистема выросла: каналов стало больше, появились боты, развились NFT, комьюнити стало самосознательным.",
+            "Со временем экосистема выросла: каналов стало больше, появились боты, развились NFT, комьюнити обрело собственный голос.",
         dickpaper_past_card2_line1:
             "DHD Coin появился естественно как способ связать всё это в единую внутреннюю экономику — не убив оригинальный дух.",
         dickpaper_past_card2_line2:
