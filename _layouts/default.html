@@ -3,7 +3,14 @@
 
 {% include head.html %}
 
-<body data-spy="scroll" data-target=".navbar" data-offset="90"{% if page.url contains '/dickpaper' %} class="dickpaper-body"{% endif %}>
+{% assign body_classes = "" %}
+{% if page.url contains '/dickpaper' %}
+  {% assign body_classes = body_classes | append: " dickpaper-body" %}
+{% endif %}
+{% if page.body_class %}
+  {% assign body_classes = body_classes | append: " " | append: page.body_class %}
+{% endif %}
+<body data-spy="scroll" data-target=".navbar" data-offset="90"{% if body_classes != "" %} class="{{ body_classes | strip }}"{% endif %}>
 
 <!-- START LOADER -->
 <div class="loader-bg">
