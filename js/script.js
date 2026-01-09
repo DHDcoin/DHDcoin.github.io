@@ -39,7 +39,8 @@ const dhdTranslations = {
             "- As currency in the <a style=\"color: #0078c1;\" href=\"https://t.me/Jetton_Games_bot\" target=\"_blank\">@Jetton_Games_bot</a> gambling establishment",
         utility_list_promo:
             "- To pay for promotion of your projects in <a style=\"color: #0078c1;\" href=\"https://t.me/coindhd\" target=\"_blank\">@coindhd</a> and <a style=\"color: #0078c1;\" href=\"https://t.me/wayofdhd\" target=\"_blank\">@wayofdhd</a> channels",
-        utility_list_nft: "- To purchase legendary NFTs from the Way Of DHD collection at a 20% discount",
+        utility_list_nft:
+            "- To purchase legendary NFTs from the <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">Way Of DHD collection</a> at a 20% discount",
         utility_list_club:
             "- For access to the private <a style=\"color: #0078c1;\" href=\"https://t.me/xrocket?start=sb_0fTbrHY1Au0rNc5\" target=\"_blank\">DHD Sharks Club community</a>",
         utility_list_attitude:
@@ -55,7 +56,7 @@ const dhdTranslations = {
         dickpaper_intro_lede:
             "DHD Coin is a meme-born token living on the TON blockchain. It wasn't created to change the world, fix finance, or promise anyone a yacht. It was created to be fun, social, and slightly unhinged.",
         dickpaper_intro_body:
-            "DHD grew out of The Way of DHD NFT collection — a project that started as a joke, accidentally became culture, and then refused to die. Somewhere along the way, it turned into an ecosystem with memes, games, NFTs, bots, and a very opinionated community.",
+            "DHD grew out of <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">The Way of DHD NFT collection</a> — a project that started as a joke, accidentally became culture, and then refused to die. Somewhere along the way, it turned into an ecosystem with memes, games, NFTs, bots, and a very opinionated community.",
         dickpaper_intro_note: "This page is not a whitepaper. This is a dickpaper.",
         dickpaper_what_title: "What the hell is DHD?",
         dickpaper_what_subtitle: "Culture-first, utility-second, chaos always.",
@@ -78,7 +79,8 @@ const dhdTranslations = {
         dickpaper_do_card2_title: "Play the bots",
         dickpaper_do_card2_body: "Interact with and play Telegram-based game bots.",
         dickpaper_do_card3_title: "Collect the art",
-        dickpaper_do_card3_body: "Access and purchase epic NFTs from The Way of DHD collection (often with discounts).",
+        dickpaper_do_card3_body:
+            "Access and purchase epic NFTs from <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">The Way of DHD collection</a> (often with discounts).",
         dickpaper_do_card4_title: "Join experiments",
         dickpaper_do_card4_body: "Participate in internal mechanics, experiments, and community-driven initiatives.",
         dickpaper_do_note: "DHD works as an internal fuel for the ecosystem — not as a magic button, but as a shared tool.",
@@ -99,7 +101,8 @@ const dhdTranslations = {
         dickpaper_tokenomics_use_title: "How it's used",
         dickpaper_tokenomics_use_list1: "Advertising across DHD channels and bots",
         dickpaper_tokenomics_use_list2: "Interaction with game bots like @DHDGame_Bot and @Jetton_Games_bot",
-        dickpaper_tokenomics_use_list3: "Acquiring epic NFTs from The Way of DHD collection",
+        dickpaper_tokenomics_use_list3:
+            "Acquiring epic NFTs from <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">The Way of DHD collection</a>",
         dickpaper_tokenomics_use_list4: "Funding community experiments and aligned external ideas",
         dickpaper_past_title: "Past → Present",
         dickpaper_past_card1_line1: "It started as a joke NFT collection. Then people stayed.",
@@ -169,7 +172,8 @@ const dhdTranslations = {
             "- Быть валютой в азартном заведении <a style=\"color: #0078c1;\" href=\"https://t.me/Jetton_Games_bot\" target=\"_blank\">@Jetton_Games_bot</a>",
         utility_list_promo:
             "- Оплачивать продвижение ваших проектов в каналах <a style=\"color: #0078c1;\" href=\"https://t.me/coindhd\" target=\"_blank\">@coindhd</a> и <a style=\"color: #0078c1;\" href=\"https://t.me/wayofdhd\" target=\"_blank\">@wayofdhd</a>",
-        utility_list_nft: "- Покупать легендарные NFT из коллекции The Way Of DHD со скидкой 20%",
+        utility_list_nft:
+            "- Покупать легендарные NFT из коллекции <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">The Way Of DHD</a> со скидкой 20%",
         utility_list_club:
             "- Получать доступ в приватное комьюнити <a style=\"color: #0078c1;\" href=\"https://t.me/xrocket?start=sb_0fTbrHY1Au0rNc5\" target=\"_blank\">DHD Sharks Club</a>",
         utility_list_attitude:
@@ -185,7 +189,7 @@ const dhdTranslations = {
         dickpaper_intro_lede:
             "DHD Coin — мем-токен на блокчейне TON. Его не создавали, чтобы менять мир, чинить финансы или обещать кому-то яхту. Он появился ради фана, общения и лёгкого безумия.",
         dickpaper_intro_body:
-            "DHD вырос из NFT-коллекции The Way of DHD — проекта, который начался как шутка, случайно стал культурой и отказался умирать. Где-то по пути он превратился в экосистему с мемами, играми, NFT, ботами и очень принципиальным комьюнити.",
+            "DHD вырос из <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">NFT-коллекции The Way of DHD</a> — проекта, который начался как шутка, случайно стал культурой и отказался умирать. Где-то по пути он превратился в экосистему с мемами, играми, NFT, ботами и очень принципиальным комьюнити.",
         dickpaper_intro_note: "Это не Whitepaper. Это Dickpaper.",
         dickpaper_what_title: "Что вообще такое DHD?",
         dickpaper_what_subtitle: "Сначала культура, потом утилити, и всегда хаос.",
@@ -210,7 +214,7 @@ const dhdTranslations = {
         dickpaper_do_card2_body: "Взаимодействовать и играть в Telegram-ботах.",
         dickpaper_do_card3_title: "Коллекционировать арт",
         dickpaper_do_card3_body:
-            "Получать доступ и покупать эпичные NFT из коллекции The Way of DHD (часто со скидками).",
+            "Получать доступ и покупать эпичные NFT из коллекции <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">The Way of DHD</a> (часто со скидками).",
         dickpaper_do_card4_title: "Участвовать в экспериментах",
         dickpaper_do_card4_body:
             "Участвовать во внутренних механиках, экспериментах и инициативах сообщества.",
@@ -233,7 +237,8 @@ const dhdTranslations = {
         dickpaper_tokenomics_use_title: "Как используется",
         dickpaper_tokenomics_use_list1: "Реклама в каналах и ботах DHD",
         dickpaper_tokenomics_use_list2: "Взаимодействие с ботами вроде @DHDGame_Bot и @Jetton_Games_bot",
-        dickpaper_tokenomics_use_list3: "Покупка эпичных NFT из коллекции The Way of DHD",
+        dickpaper_tokenomics_use_list3:
+            "Покупка эпичных NFT из коллекции <a style=\"color: #0078c1;\" href=\"https://getgems.io/collection/EQDzvSAKspPnYIhuqZe0_dMfrEEUlwKVzb4dJo0sRoxZwRZe\" target=\"_blank\" rel=\"noopener\">The Way of DHD</a>",
         dickpaper_tokenomics_use_list4: "Финансирование экспериментов комьюнити и внешних идей в тему",
         dickpaper_past_title: "Прошлое → Настоящее",
         dickpaper_past_card1_line1: "Началось как шуточная NFT-коллекция. Потом люди остались.",
