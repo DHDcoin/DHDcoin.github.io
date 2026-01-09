@@ -2259,6 +2259,30 @@ body.dickpaper-body {
     z-index: 1;
 }
 
+.dickpaper-2-body header,
+.dickpaper-2-body .slider-bottom {
+    display: none;
+}
+
+.dickpaper-2-hero {
+    min-height: 100vh;
+}
+
+.dickpaper-2-hero .slider-image {
+    margin: 0 auto 30px;
+    top: 0;
+}
+
+.dickpaper-2-logo img {
+    max-width: 320px;
+}
+
+.dickpaper-2-title {
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
 .dickpaper-page .container {
     max-width: var(--dhd-container-width);
 }
