@@ -2362,3 +2362,51 @@ body.dickpaper-body {
         bottom: -25%;
     }
 }
+
+/* ===================================
+    Dickpaper Overrides
+====================================== */
+
+.dickpaper-page a {
+    text-decoration: none;
+}
+
+.dickpaper-page a:hover {
+    text-decoration: none;
+}
+
+.dickpaper-page .btn {
+    text-decoration: none;
+}
+
+.dickpaper-page .btn:hover,
+.dickpaper-page .btn:focus {
+    text-decoration: none;
+}
+
+.dickpaper-page .dickpaper-panel {
+    background: var(--dhd-surface);
+}
+
+.dickpaper-page .container {
+    padding-left: var(--dhd-gutter);
+    padding-right: var(--dhd-gutter);
+}
+
+.dickpaper-page .dickpaper-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+@media (max-width: 768px) {
+    .dickpaper-page .dickpaper-panel {
+        padding: 22px;
+    }
+
+    .dickpaper-page .dickpaper-cta {
+        width: 100%;
+        text-align: center;
+    }
+}
