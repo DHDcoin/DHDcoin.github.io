@@ -52,7 +52,7 @@ const dhdTranslations = {
         footer_verified_contract:
             "Verified contract: EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B",
         dickpaper_kicker: "The Way of DHD",
-        dickpaper_title: "aka Dickpaper",
+        dickpaper_title: "Dickpaper",
         dickpaper_intro_lede:
             "DHD Coin is a meme-born token living on the TON blockchain. It wasn't created to change the world, fix finance, or promise anyone a yacht. It was created to be fun, social, and slightly unhinged.",
         dickpaper_intro_body:
@@ -185,7 +185,7 @@ const dhdTranslations = {
         footer_verified_contract:
             "Проверенный контракт: EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B",
         dickpaper_kicker: "The Way of DHD",
-        dickpaper_title: "aka Dickpaper",
+        dickpaper_title: "Dickpaper",
         dickpaper_intro_lede:
             "DHD Coin — мем-токен на блокчейне TON. Его не создавали, чтобы менять мир, чинить финансы или обещать кому-то яхту. Он появился ради фана, общения и лёгкого безумия.",
         dickpaper_intro_body:
